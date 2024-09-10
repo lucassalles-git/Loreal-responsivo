@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EFEEF3;
+}
+
+header {
+  height: 64px;
+  background-color: #EFEEF3;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 1;
+}
+@media (min-width: 393px) and (max-width: 1381px) {
+  header {
+    height: 337px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+header img {
+  width: 155.35px;
+  height: 48px;
+  padding-left: 21px;
+}
+@media (min-width: 393px) and (max-width: 1381px) {
+  header img {
+    width: 181px;
+    height: 65px;
+    margin-top: 19px;
+  }
+}
+header ul {
+  width: 90vw;
+  padding-right: 20px;
+  padding-left: 87.65px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31.2px;
+}
+@media (min-width: 393px) and (max-width: 1381px) {
+  header ul {
+    margin: 0;
+    padding: 0;
+    height: 27vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+@media (min-width: 393px) and (max-width: 1381px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+main .image-top {
+  width: 100%;
+  height: 320px;
+  position: absolute;
+  top: -1px;
+}
+@media (min-width: 393px) and (max-width: 1381px) {
+  main .image-top {
+    display: none;
+  }
+}
+main .section-one {
+  padding-top: 310px;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (min-width: 393px) and (max-width: 1381px) {
+  main .section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 39px;
+  }
+}
+@media (min-width: 393px) and (max-width: 1381px) {
+  main .section-one img {
+    width: 340px;
+    height: 253px;
+  }
+}
+main .section-one div {
+  width: 573px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 393px) and (max-width: 1381px) {
+  main .section-one div {
+    padding-top: 39px;
+  }
+}
+main .section-one div h1 {
+  margin-bottom: 25px;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46.8px;
+  text-align: center;
+}
+@media (min-width: 393px) and (max-width: 1381px) {
+  main .section-one div h1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32.2px;
+    text-align: center;
+  }
+}
+main .section-one div p {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31.2px;
+  text-align: center;
+}
+@media (min-width: 393px) and (max-width: 1381px) {
+  main .section-one div p {
+    width: 325px;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+  }
+}
+main .section-two {
+  margin-top: 48px;
+  margin-bottom: 62px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (min-width: 393px) and (max-width: 1381px) {
+  main .section-two {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+}
+main .section-two h2 {
+  width: 493px;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+}
+@media (min-width: 393px) and (max-width: 1381px) {
+  main .section-two h2 {
+    width: 314px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+  }
+}
+main .section-two div {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 393px) {
+  main .section-two div {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+main .section-two div .children {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 393px) {
+  main .section-two div .children {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */

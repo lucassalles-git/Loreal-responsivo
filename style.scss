@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+$general-color: #EFEEF3;
+
+@mixin font {
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $general-color;
+}
+
+header {
+    height: 64px;
+    background-color: $general-color;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 1;
+
+    @media (min-width: 393px) and (max-width: 1381px) {
+        height: 337px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 155.35px;
+        height: 48px;
+        padding-left: 21px;
+
+        @media (min-width: 393px) and (max-width: 1381px) {
+            width: 181px;
+            height: 65px;
+            margin-top: 19px;
+        }
+    }
+
+    ul {
+        width: 90vw;
+        padding-right: 20px;
+        padding-left: 87.65px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @include font;
+        font-size: 24px;
+        line-height: 31.2px;
+
+        @media (min-width: 393px) and (max-width: 1381px) {
+            margin: 0;
+            padding: 0;
+            height: 27vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+
+}
+
+main {
+    @media (min-width: 393px) and (max-width: 1381px) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-top {
+        width: 100%;
+        height: 320px;
+        position: absolute;
+        top: -1px;
+
+        @media (min-width: 393px) and (max-width: 1381px) {
+            display: none;
+        }
+
+
+    }
+
+    .section-one {
+        padding-top: 310px;
+        display: flex;
+        justify-content: space-evenly;
+
+        @media (min-width: 393px) and (max-width: 1381px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 39px;
+        }
+
+        img {
+            @media (min-width: 393px) and (max-width: 1381px) {
+                width: 340px;
+                height: 253px;
+            }
+        }
+
+        div {
+            width: 573px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            @media (min-width: 393px) and (max-width: 1381px) {
+                padding-top: 39px;
+            }
+
+            h1 {
+                margin-bottom: 25px;
+                @include font;
+                font-size: 36px;
+                line-height: 46.8px;
+                text-align: center;
+
+                @media (min-width: 393px) and (max-width: 1381px) {
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 32.2px;
+                    text-align: center;
+                }
+            }
+
+            p {
+                @include font;
+                font-size: 24px;
+                line-height: 31.2px;
+                text-align: center;
+
+                @media (min-width: 393px) and (max-width: 1381px) {
+                    width: 325px;
+                    font-size: 20px;
+                    line-height: 26px;
+                    text-align: center;
+                }
+            }
+        }
+
+    }
+
+    .section-two {
+        margin-top: 48px;
+        margin-bottom: 62px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        @media (min-width: 393px) and (max-width: 1381px) {
+            display: flex;
+            flex-direction: column;
+            margin-top: 25px;
+        }
+
+        h2 {
+            width: 493px;
+            @include font;
+            font-size: 30px;
+            line-height: 39px;
+
+            @media (min-width: 393px) and (max-width: 1381px) {
+                width: 314px;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 26px;
+                text-align: center;
+            }
+        }
+
+        div {
+            width: 50vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            @media (max-width: 393px) {
+                padding-top: 20px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .children {
+                display: flex;
+                justify-content: space-around;
+
+                @media (max-width: 393px) {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+
+    }
+}
