@@ -17,7 +17,17 @@ header {
   position: sticky;
   z-index: 1;
 }
-@media (min-width: 393px) and (max-width: 1381px) {
+@media (max-width: 1383px) {
+  header {
+    height: 54px;
+  }
+}
+@media (max-width: 1171px) {
+  header {
+    height: 39px;
+  }
+}
+@media (max-width: 393px) {
   header {
     height: 337px;
     display: flex;
@@ -30,7 +40,21 @@ header img {
   height: 48px;
   padding-left: 21px;
 }
-@media (min-width: 393px) and (max-width: 1381px) {
+@media (max-width: 1383px) {
+  header img {
+    width: 132px;
+    height: 40px;
+    padding-left: 18px;
+  }
+}
+@media (max-width: 1171px) {
+  header img {
+    width: 95px;
+    height: 28px;
+    padding-left: 13px;
+  }
+}
+@media (max-width: 393px) {
   header img {
     width: 181px;
     height: 65px;
@@ -56,7 +80,23 @@ header nav ul {
   font-size: 24px;
   line-height: 31.2px;
 }
-@media (min-width: 393px) and (max-width: 1381px) {
+@media (max-width: 1383px) {
+  header nav ul {
+    padding-right: 17px;
+    padding-left: 74px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+@media (max-width: 1171px) {
+  header nav ul {
+    padding-right: 12px;
+    padding-left: 53px;
+    font-size: 14.4px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 393px) {
   header nav ul {
     margin: 0;
     padding: 0;
@@ -69,7 +109,7 @@ header nav ul {
   }
 }
 
-@media (min-width: 393px) and (max-width: 1381px) {
+@media (max-width: 393px) {
   main {
     display: flex;
     flex-direction: column;
@@ -81,7 +121,17 @@ main .image-top {
   position: absolute;
   top: -1px;
 }
-@media (min-width: 393px) and (max-width: 1381px) {
+@media (max-width: 1383px) {
+  main .image-top {
+    height: 272px;
+  }
+}
+@media (max-width: 1171px) {
+  main .image-top {
+    height: 196px;
+  }
+}
+@media (max-width: 393px) {
   main .image-top {
     display: none;
   }
@@ -91,7 +141,17 @@ main .section-one {
   display: flex;
   justify-content: space-evenly;
 }
-@media (min-width: 393px) and (max-width: 1381px) {
+@media (max-width: 1383px) {
+  main .section-one {
+    padding-top: 263px;
+  }
+}
+@media (max-width: 1171px) {
+  main .section-one {
+    padding-top: 189px;
+  }
+}
+@media (max-width: 393px) {
   main .section-one {
     display: flex;
     flex-direction: column;
@@ -100,7 +160,19 @@ main .section-one {
     padding-top: 39px;
   }
 }
-@media (min-width: 393px) and (max-width: 1381px) {
+@media (max-width: 1383px) {
+  main .section-one img {
+    width: 382px;
+    height: 301px;
+  }
+}
+@media (max-width: 1171px) {
+  main .section-one img {
+    width: 275px;
+    height: 217px;
+  }
+}
+@media (max-width: 393px) {
   main .section-one img {
     width: 340px;
     height: 253px;
@@ -113,7 +185,17 @@ main .section-one div {
   align-items: center;
   justify-content: center;
 }
-@media (min-width: 393px) and (max-width: 1381px) {
+@media (max-width: 1383px) {
+  main .section-one div {
+    width: 487px;
+  }
+}
+@media (max-width: 1171px) {
+  main .section-one div {
+    width: 351px;
+  }
+}
+@media (max-width: 393px) {
   main .section-one div {
     padding-top: 39px;
   }
@@ -126,7 +208,21 @@ main .section-one div h1 {
   line-height: 46.8px;
   text-align: center;
 }
-@media (min-width: 393px) and (max-width: 1381px) {
+@media (max-width: 1383px) {
+  main .section-one div h1 {
+    margin-bottom: 21px;
+    font-size: 30px;
+    line-height: 39px;
+  }
+}
+@media (max-width: 1171px) {
+  main .section-one div h1 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 393px) {
   main .section-one div h1 {
     font-weight: 500;
     font-size: 24px;
@@ -141,7 +237,19 @@ main .section-one div p {
   line-height: 31.2px;
   text-align: center;
 }
-@media (min-width: 393px) and (max-width: 1381px) {
+@media (max-width: 1383px) {
+  main .section-one div p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+@media (max-width: 1171px) {
+  main .section-one div p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+@media (max-width: 393px) {
   main .section-one div p {
     width: 325px;
     font-size: 20px;
@@ -156,7 +264,19 @@ main .section-two {
   justify-content: space-evenly;
   align-items: center;
 }
-@media (min-width: 393px) and (max-width: 1381px) {
+@media (max-width: 1383px) {
+  main .section-two {
+    margin-top: 40px;
+    margin-bottom: 52px;
+  }
+}
+@media (max-width: 1171px) {
+  main .section-two {
+    margin-top: 29px;
+    margin-bottom: 37px;
+  }
+}
+@media (max-width: 393px) {
   main .section-two {
     display: flex;
     flex-direction: column;
@@ -170,7 +290,21 @@ main .section-two h2 {
   font-size: 30px;
   line-height: 39px;
 }
-@media (min-width: 393px) and (max-width: 1381px) {
+@media (max-width: 1383px) {
+  main .section-two h2 {
+    width: 419px;
+    font-size: 25px;
+    line-height: 33px;
+  }
+}
+@media (max-width: 1171px) {
+  main .section-two h2 {
+    width: 302px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 393px) {
   main .section-two h2 {
     width: 314px;
     font-weight: 500;
@@ -203,5 +337,53 @@ main .section-two div .children {
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 15px;
+  }
+}
+@media (max-width: 1383px) {
+  main .section-two div .children .cachos {
+    width: 67px;
+    height: 170px;
+  }
+}
+@media (max-width: 1171px) {
+  main .section-two div .children .cachos {
+    width: 59px;
+    height: 144px;
+  }
+}
+@media (max-width: 1383px) {
+  main .section-two div .children .casting {
+    width: 91px;
+    height: 170px;
+  }
+}
+@media (max-width: 1171px) {
+  main .section-two div .children .casting {
+    width: 77px;
+    height: 144px;
+  }
+}
+@media (max-width: 1383px) {
+  main .section-two div .children .revitalift {
+    width: 54px;
+    height: 170px;
+  }
+}
+@media (max-width: 1171px) {
+  main .section-two div .children .revitalift {
+    width: 46px;
+    height: 144px;
+  }
+}
+@media (max-width: 1383px) {
+  main .section-two div .children .uvdefender {
+    width: 79px;
+    height: 170px;
+  }
+}
+@media (max-width: 1171px) {
+  main .section-two div .children .uvdefender {
+    width: 67px;
+    height: 144px;
   }
 }/*# sourceMappingURL=style.css.map */
