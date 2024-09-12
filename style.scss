@@ -41,32 +41,41 @@ header {
             width: 181px;
             height: 65px;
             margin-top: 19px;
-        }
-    }
-
-    ul {
-        width: 90vw;
-        padding-right: 20px;
-        padding-left: 87.65px;
-        list-style: none;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        @include font;
-        font-size: 24px;
-        line-height: 31.2px;
-
-        @media (min-width: 393px) and (max-width: 1381px) {
-            margin: 0;
             padding: 0;
-            height: 27vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            font-size: 20px;
-            line-height: 26px;
         }
     }
+
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        ul {
+            width: 90vw;
+            padding-right: 20px;
+            padding-left: 87.65px;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            @include font;
+            font-size: 24px;
+            line-height: 31.2px;
+    
+            @media (min-width: 393px) and (max-width: 1381px) {
+                margin: 0;
+                padding: 0;
+                height: 27vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                font-size: 20px;
+                line-height: 26px;
+            }
+        }
+    }
+
+    
 
 }
 
