@@ -27,7 +27,7 @@ header {
     height: 39px;
   }
 }
-@media (max-width: 393px) {
+@media (min-width: 360px) and (max-width: 855px) {
   header {
     height: 337px;
     display: flex;
@@ -54,7 +54,7 @@ header img {
     padding-left: 13px;
   }
 }
-@media (max-width: 393px) {
+@media (min-width: 360px) and (max-width: 855px) {
   header img {
     width: 181px;
     height: 65px;
@@ -96,7 +96,7 @@ header nav ul {
     line-height: 18px;
   }
 }
-@media (max-width: 393px) {
+@media (min-width: 360px) and (max-width: 855px) {
   header nav ul {
     margin: 0;
     padding: 0;
@@ -109,7 +109,7 @@ header nav ul {
   }
 }
 
-@media (max-width: 393px) {
+@media (min-width: 360px) and (max-width: 855px) {
   main {
     display: flex;
     flex-direction: column;
@@ -131,7 +131,7 @@ main .image-top {
     height: 196px;
   }
 }
-@media (max-width: 393px) {
+@media (min-width: 360px) and (max-width: 855px) {
   main .image-top {
     display: none;
   }
@@ -151,7 +151,7 @@ main .section-one {
     padding-top: 189px;
   }
 }
-@media (max-width: 393px) {
+@media (min-width: 360px) and (max-width: 855px) {
   main .section-one {
     display: flex;
     flex-direction: column;
@@ -172,7 +172,7 @@ main .section-one {
     height: 217px;
   }
 }
-@media (max-width: 393px) {
+@media (min-width: 360px) and (max-width: 855px) {
   main .section-one img {
     width: 340px;
     height: 253px;
@@ -195,7 +195,7 @@ main .section-one div {
     width: 351px;
   }
 }
-@media (max-width: 393px) {
+@media (min-width: 360px) and (max-width: 855px) {
   main .section-one div {
     padding-top: 39px;
   }
@@ -222,7 +222,7 @@ main .section-one div h1 {
     line-height: 28px;
   }
 }
-@media (max-width: 393px) {
+@media (min-width: 360px) and (max-width: 855px) {
   main .section-one div h1 {
     font-weight: 500;
     font-size: 24px;
@@ -249,7 +249,7 @@ main .section-one div p {
     line-height: 19px;
   }
 }
-@media (max-width: 393px) {
+@media (min-width: 360px) and (max-width: 855px) {
   main .section-one div p {
     width: 325px;
     font-size: 20px;
@@ -276,7 +276,7 @@ main .section-two {
     margin-bottom: 37px;
   }
 }
-@media (max-width: 393px) {
+@media (min-width: 360px) and (max-width: 855px) {
   main .section-two {
     display: flex;
     flex-direction: column;
@@ -304,7 +304,7 @@ main .section-two h2 {
     line-height: 24px;
   }
 }
-@media (max-width: 393px) {
+@media (min-width: 360px) and (max-width: 855px) {
   main .section-two h2 {
     width: 314px;
     font-weight: 500;
@@ -319,7 +319,15 @@ main .section-two div {
   align-items: center;
   justify-content: center;
 }
-@media (max-width: 393px) {
+@media (max-width: 855px) {
+  main .section-two div {
+    padding-top: 20px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 360px) and (max-width: 500px) {
   main .section-two div {
     padding-top: 20px;
     width: 100%;
@@ -331,7 +339,7 @@ main .section-two div .children {
   display: flex;
   justify-content: space-around;
 }
-@media (max-width: 393px) {
+@media (min-width: 360px) and (max-width: 855px) {
   main .section-two div .children {
     display: flex;
     flex-direction: row;
