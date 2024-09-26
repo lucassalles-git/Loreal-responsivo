@@ -319,7 +319,7 @@ main .section-two div {
   align-items: center;
   justify-content: center;
 }
-@media (max-width: 855px) {
+@media (min-width: 501px) and (max-width: 855px) {
   main .section-two div {
     padding-top: 20px;
     width: 50vw;
@@ -339,7 +339,15 @@ main .section-two div .children {
   display: flex;
   justify-content: space-around;
 }
-@media (min-width: 360px) and (max-width: 855px) {
+@media (min-width: 501px) and (max-width: 855px) {
+  main .section-two div .children {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 360px) and (max-width: 500px) {
   main .section-two div .children {
     display: flex;
     flex-direction: row;

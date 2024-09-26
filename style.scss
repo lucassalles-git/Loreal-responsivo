@@ -308,7 +308,7 @@ main {
             align-items: center;
             justify-content: center;
 
-            @media (min-width: 501px) and(max-width: 855px){
+            @media (min-width: 501px) and (max-width: 855px){
                 padding-top: 20px;
                 width: 50vw;
                 display: flex;
@@ -327,7 +327,7 @@ main {
                 display: flex;
                 justify-content: space-around;
 
-                @media (min-width: 501px) and(max-width: 855px){
+                @media (min-width: 501px) and (max-width: 855px){
                     display: flex;
                     flex-direction: row;
                     justify-content: space-evenly;
