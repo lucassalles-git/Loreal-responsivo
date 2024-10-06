@@ -12,9 +12,6 @@ Este projeto foi desenvolvido como desafio para o módulo 1 de responsividade do
 **Funcionalidades:**
 
 * **Layout responsivo:** A página se adapta perfeitamente a dispositivos móveis, tablets e desktops, garantindo uma experiência de usuário consistente.
-* **Navegação intuitiva:** Menu de navegação responsivo e fácil de usar.
-* **Destaque de produtos:** Os produtos são apresentados de forma clara e organizada, com imagens de alta qualidade e descrições concisas.
-* **Call to action:** Botão de compra destacado, incentivando o usuário a adquirir os produtos.
 
 **Aprendizados:**
 
