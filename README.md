@@ -19,10 +19,6 @@ Este projeto foi desenvolvido como desafio para o módulo 1 de responsividade do
 * **Organização de código:** Utilizar Sass para organizar o CSS e facilitar a manutenção do projeto.
 * **Otimização para diferentes dispositivos:** Garantir que a página carregue rapidamente e tenha um bom desempenho em diferentes dispositivos.
 
-**Contribuições:**
-
-Sinta-se à vontade para contribuir com este projeto! Abra um issue para reportar bugs ou sugestões.
-
 **Licença:**
 
 Este projeto está licenciado sob a licença MIT.
